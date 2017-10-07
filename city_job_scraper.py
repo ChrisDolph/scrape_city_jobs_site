@@ -125,7 +125,7 @@ def main():
     """Run the scraper"""
     the_links = compile_links()
     data_frame = build_dataframe(the_links)
-    data_frame.to_csv('jobs.csv')
+    data_frame.to_csv('data/jobs.csv')
 
 
 # call main()
