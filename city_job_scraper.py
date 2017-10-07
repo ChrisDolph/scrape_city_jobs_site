@@ -124,7 +124,7 @@ def main():
 
     the_links = compile_links()
     data_frame = build_dataframe(the_links)
-    data_frame.to_csv('jobs.csv')
+    data_frame.to_csv('data/jobs.csv')
 
 #call main()
 if __name__ == "__main__":
